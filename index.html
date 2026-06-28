@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="TecnoMallard — Consultoria e Programação Informática em Xai-Xai, Gaza, Moçambique." />
+  <meta property="og:title" content="TecnoMallard — Tecnologia que impulsiona o seu negócio" />
+  <meta property="og:description"
+    content="Soluções tecnológicas para empresas moçambicanas. Consultoria, desenvolvimento de software, design e manutenção em Xai-Xai, Gaza." />
+  <meta property="og:type" content="website" />
+  <title>TecnoMallard — Tecnologia que impulsiona o seu negócio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <nav id="main-nav">
+    <a href="#inicio" class="nav-logo" aria-label="TecnoMallard — página inicial">
+      <svg viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M44 4L79.5 24V64L44 84L8.5 64V24L44 4Z" fill="#3D2ECC" />
+        <path d="M44 14L70 29V59L44 74L18 59V29L44 14Z" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+        <path d="M34 38 L44 30 L54 38 M34 38 L34 50 M54 38 L54 50 M34 50 L44 56 L54 50 M40 38 L40 50 M48 38 L48 50"
+          stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      </svg>
+      <span class="nav-brand">TecnoMallard</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#contacto" class="nav-cta" id="nav-cta">Falar Connosco</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main>
+    <!-- ── HERO COM VÍDEO EM TELA CHEIA ── -->
+    <section class="hero-full" id="inicio">
+      <div class="hero-video-wrap">
+        <video src="./assets/animations/TECNOMALLARD_PUB.mp4" autoplay loop muted playsinline preload="auto"
+          aria-label="Animação de apresentação TecnoMallard"></video>
+      </div>
+      <div class="hero-content-wrap">
+        <div class="hero-content">
+          <p class="hero-tag">Xai-Xai, Gaza · Moçambique</p>
+          <h1>Tecnologia que impulsiona o seu negócio</h1>
+          <p class="hero-sub">Consultoria, desenvolvimento de software e soluções informáticas para empresas
+            moçambicanas que querem crescer na era digital.</p>
+          <div class="hero-actions">
+            <a href="#servicos" class="btn-primary">Ver serviços</a>
+            <a href="#contacto" class="btn-ghost">Falar com a equipa →</a>
+          </div>
+        </div>
+        <div class="hero-video-small"
+          style="position:relative; z-index:1; width:100%; aspect-ratio:16/10; border-radius:24px; overflow:hidden; border:1px solid rgba(139,127,255,0.2); box-shadow:0 0 80px rgba(61,46,204,0.3); background:#000;">
+          <video src="./assets/animations/logo_snimation.mp4" autoplay loop muted playsinline preload="auto"
+            aria-label="Animação do logótipo TecnoMallard"
+            style="width:100%;height:100%;object-fit:cover;display:block;"></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SERVIÇOS com imagens reais ── -->
+    <div class="container">
+      <section id="servicos" aria-labelledby="services-title" class="section">
+        <p class="section-tag">O que fazemos</p>
+        <h2 class="section-title" id="services-title">Soluções para cada desafio digital</h2>
+        <p class="section-sub">Da ideia ao produto final, a TecnoMallard acompanha a sua empresa em cada etapa da
+          transformação tecnológica.</p>
+        <div class="services-grid">
+
+          <div class="service-card">
+            <div class="service-img">
+              <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop&crop=center"
+                alt="Designer criando identidade visual" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Design e Identidade Visual</h3>
+              <p class="service-desc">Criação de logos, materiais gráficos e identidade visual que destacam a sua marca
+                no mercado.</p>
+            </div>
+            <div class="liink">
+              <a href="#">Saber mais →</a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop&crop=center"
+                alt="Equipamento de escritório" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Gestão de Equipamento</h3>
+              <p class="service-desc">Aluguer, gestão e exploração de equipamento informático e de escritório para
+                empresas e instituições.</p>
+            </div>
+            <div class="liink">
+              <a href="#">Saber mais →</a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img">
+              <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop&crop=center"
+                alt="Técnico a reparar computador" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Reparação e Manutenção</h3>
+              <p class="service-desc">Manutenção preventiva e correctiva de computadores, periféricos e equipamentos de
+                comunicação.</p>
+            </div>
+            <div class="liink">
+              <a href="#">Saber mais →</a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img">
+              <img src="https://qualificamarica.com.br/wp-content/uploads/2025/06/Programador-de-sistemas-1.jpg"
+                alt="Programador de sistemas" />
+            </div>
+
+            <div class="service-body">
+              <h3 class="service-name">Consultoria e Programação</h3>
+              <p class="service-desc">Desenvolvimento de sistemas, aplicações web, websites e soluções empresariais.</p>
+            </div>
+            <div class="liink">
+              <a href="#">Saber mais →</a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img">
+              <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=400&fit=crop&crop=center"
+                alt="Equipamento eléctrico" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Equipamento Eléctrico</h3>
+              <p class="service-desc">Reparação e manutenção de equipamento eléctrico para garantir a continuidade das
+                suas operações.</p>
+            </div>
+            <div class="liink">
+              <a href="#">Saber mais →</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- ── WHY ── -->
+    <section class="why-section" id="sobre" aria-labelledby="why-title">
+      <div class="container">
+        <div class="why-inner">
+          <div>
+            <p class="section-tag">Porquê a TecnoMallard</p>
+            <h2 class="section-title" id="why-title">Parceiro de confiança em Gaza</h2>
+            <p class="section-sub" style="margin-bottom:0">Uma empresa moçambicana, registada e licenciada, comprometida
+              com o desenvolvimento tecnológico local.</p>
+            <div class="why-list">
+              <div class="why-item">
+                <div class="why-bullet" aria-hidden="true">✓</div>
+                <div class="why-text"><strong>Licença por tempo indeterminado</strong><span>Alvará nº
+                    1593/09/01/PS/2021, emitido pelo Governo da Província de Gaza.</span></div>
+              </div>
+              <div class="why-item">
+                <div class="why-bullet" aria-hidden="true">✓</div>
+                <div class="why-text"><strong>Equipa multidisciplinar</strong><span>Competências em software, design,
+                    electricidade e infra-estrutura hídrica.</span></div>
+              </div>
+              <div class="why-item">
+                <div class="why-bullet" aria-hidden="true">✓</div>
+                <div class="why-text"><strong>Presença local em Xai-Xai</strong><span>Proximidade ao cliente para
+                    resposta rápida e acompanhamento contínuo.</span></div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card-showcase" role="region" aria-label="Ficha da empresa">
+              <p class="card-showcase-title">Ficha da empresa</p>
+              <div class="card-row">
+                <div class="card-dot" aria-hidden="true"></div><span class="card-label">Razão Social</span><span
+                  class="card-val">TECNOMALLARD, Lda</span>
+              </div>
+              <div class="card-row">
+                <div class="card-dot" aria-hidden="true"></div><span class="card-label">NUIT</span><span
+                  class="card-val">401257365</span>
+              </div>
+              <div class="card-row">
+                <div class="card-dot" aria-hidden="true"></div><span class="card-label">Actividade Principal</span><span
+                  class="card-val">Consultoria Informática</span>
+              </div>
+              <div class="card-row">
+                <div class="card-dot" aria-hidden="true"></div><span class="card-label">Sede</span><span
+                  class="card-val">Xai-Xai, Gaza</span>
+              </div>
+              <div class="card-row">
+                <div class="card-dot" aria-hidden="true"></div><span class="card-label">Alvará nº</span><span
+                  class="card-val">1593/09/01/PS/2021</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <div class="container">
+      <section class="contact-section" id="contacto">
+
+        <div class="container">
+
+          <p class="section-tag">Contacto</p>
+
+          <h2 class="section-title">
+            Vamos conversar.
+          </h2>
+
+          <p class="section-sub">
+            Tem um projecto ou precisa de suporte?
+            Entre em contacto connosco.
+          </p>
+
+          <a href="#" class="btn-primary">
+            Solicitar Orçamento
+          </a>
+
+          <div class="contact-grid">
+
+            <a href="tel:+25884XXXXXXX" class="contact-item">
+              <i data-lucide="phone"></i>
+
+              <div>
+                <span>Telefone</span>
+                <strong>+258 82 255 2552</strong>
+              </div>
+            </a>
+
+            <a href="https://wa.me/258822552552" class="contact-item">
+              <i data-lucide="message-circle"></i>
+
+              <div>
+                <span>WhatsApp</span>
+                <strong>+258 82 255 2552</strong>
+              </div>
+            </a>
+
+            <a href="mailto:contacto@tecnomallard.co.mz" class="contact-item">
+              <i data-lucide="mail"></i>
+
+              <div>
+                <span>Email</span>
+                <strong>info@tecnomallard.co.mz</strong>
+              </div>
+            </a>
+
+            <div class="contact-item">
+              <i data-lucide="map-pin"></i>
+
+              <div>
+                <span>Localização</span>
+                <strong>Xai-Xai, Gaza</strong>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="socials">
+
+            <a href="https://www.instagram.com/tecno.mallard?igsh=MTBrNnplcHozMDQ3cQ==">Instagram<i
+                data-lucide="instagram"></i></a>
+
+            <a href="https://www.facebook.com/tecnomallard">Facebook<i data-lucide="facebook"></i></a>
+
+            <a href="https://www.linkedin.com/company/tecno-mallard">LinkedIn<i data-lucide="linkedin"></i></a>
+
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-brand">TecnoMallard © <span id="year"></span></p>
+    <p class="footer-legal">Alvará nº 1593/09/01/PS/2021 · Xai-Xai, Gaza, Moçambique</p>
+  </footer>
+
+  <script src="./main.js"></script>
+
+  <a href="https://wa.me/258866661662"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Falar connosco pelo WhatsApp">
+
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="28"
+         height="28"
+         fill="currentColor"
+         viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.854 7.854 0 0 0 8.021 0C3.595 0 .001 3.593.001 8.018c0 1.414.37 2.795 1.074 4.013L0 16l4.09-1.07a8.02 8.02 0 0 0 3.93 1.004h.003c4.425 0 8.019-3.593 8.019-8.018a7.97 7.97 0 0 0-2.441-5.59zM8.023 14.55a6.55 6.55 0 0 1-3.338-.916l-.239-.142-2.427.636.648-2.365-.156-.243A6.53 6.53 0 0 1 1.47 8.02c0-3.614 2.94-6.554 6.553-6.554a6.51 6.51 0 0 1 4.637 1.922 6.51 6.51 0 0 1 1.916 4.633c0 3.614-2.94 6.529-6.553 6.529zm3.595-4.916c-.196-.098-1.159-.572-1.339-.638-.179-.065-.31-.098-.441.098-.131.197-.506.638-.621.769-.114.131-.229.147-.425.049-.196-.098-.827-.305-1.575-.973-.582-.519-.975-1.159-1.09-1.356-.114-.196-.012-.302.086-.4.088-.087.196-.229.294-.343.098-.114.131-.196.196-.327.065-.131.033-.245-.016-.343-.049-.098-.441-1.061-.604-1.454-.159-.381-.321-.329-.441-.335l-.376-.007c-.131 0-.343.049-.523.245-.18.197-.687.671-.687 1.635s.703 1.896.801 2.027c.098.131 1.383 2.112 3.35 2.961.468.202.833.323 1.118.413.469.149.896.128 1.234.078.377-.056 1.159-.474 1.323-.932.163-.458.163-.85.114-.932-.049-.082-.179-.131-.376-.229z"/>
+    </svg>
+
+</a>
+</body>
+
+</html>
