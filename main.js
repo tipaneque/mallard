@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function startSlider() {
     if (intervalId) clearInterval(intervalId);
-    intervalId = setInterval(nextSlide, 1500);
+    intervalId = setInterval(nextSlide, 2000);
   }
 
   function stopSlider() {
